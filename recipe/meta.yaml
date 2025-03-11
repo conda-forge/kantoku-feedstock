@@ -1,5 +1,5 @@
 {% set name = "kantoku" %}
-{% set version = "0.18.1" %}
+{% set version = "0.18.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/kantoku-{{ version }}.tar.gz
-  sha256: 6d25065f9da68949aa8181c59151a4670230720ac2b054059fcf6daf1f618740
+  sha256: 875583e75d6c79aacdaa11af1e4b31334f2161b115a2aa6c75f11323b0232a50
 
 build:
   entry_points:
